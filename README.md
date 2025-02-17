@@ -20,18 +20,18 @@ cd ./Dental-Stall-Web-Scraper
 python -m venv venv
 source venv/bin/activate #macOs/Linux
 ```
-2. Install Dependencies
+3. Install Dependencies
 ```
 pip install -r requirements.txt
 ```
-3. Install and Start Redis (Required for Caching)
+4. Install and Start Redis (Required for Caching)
 ```
 brew install redis        # macOS (Homebrew)
 sudo apt install redis    # Ubuntu
 
-redis-server #redis-server
+redis-server # Start redis-server
 ```
-4. Run the FastAPI Server
+5. Run the FastAPI Server
 ```
 uvicorn main:app --reload
 ```
