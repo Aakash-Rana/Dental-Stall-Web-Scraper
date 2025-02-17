@@ -12,7 +12,7 @@ It leverages:
 
 1. Clone the Repository
 ```
-git clone https://github.com/yourusername/dental-scraper.git
+git clone https://github.com/Aakash-Rana/Dental-Stall-Web-Scraper.git
 cd dental-scraper
 ```
 
