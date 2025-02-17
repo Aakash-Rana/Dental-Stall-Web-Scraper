@@ -13,9 +13,13 @@ It leverages:
 1. Clone the Repository
 ```
 git clone https://github.com/Aakash-Rana/Dental-Stall-Web-Scraper.git
-cd dental-scraper
+cd ./Dental-Stall-Web-Scraper
 ```
-
+2. Create environment (use python3 instead of python depending upon your version)
+```
+python -m venv venv
+source venv/bin/activate #macOs/Linux
+```
 2. Install Dependencies
 ```
 pip install -r requirements.txt
