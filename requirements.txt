@@ -1,0 +1,14 @@
+# Web Scraping Libraries
+beautifulsoup4==4.12.2
+requests==2.31.0
+selenium==4.8.3
+
+# WebDriver Manager (for Selenium)
+webdriver-manager==4.0.1
+
+# FastAPI for API Server
+fastapi==0.88.0
+uvicorn==0.20.0
+
+# Redis for Caching
+redis==4.5.4
